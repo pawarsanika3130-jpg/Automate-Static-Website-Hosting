@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AWS Cloud Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+header{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+}
+
+header h1{
+    font-size:4rem;
+    margin-bottom:15px;
+}
+
+header p{
+    font-size:1.2rem;
+    max-width:700px;
+}
+
+.btn{
+    margin-top:25px;
+    display:inline-block;
+    padding:12px 28px;
+    background:white;
+    color:#2563eb;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:2.5rem;
+    margin-bottom:50px;
+}
+
+.about{
+    text-align:center;
+    line-height:1.8;
+    font-size:1.1rem;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#60a5fa;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+.skill{
+    background:#2563eb;
+    padding:12px 20px;
+    border-radius:25px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#020617;
+}
+
+.social{
+    margin-top:15px;
+}
+
+.social a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+}
+
+.highlight{
+    color:#60a5fa;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Hello, I'm Sanika 👋</h1>
+    <p>
+        AWS Cloud & DevOps Enthusiast passionate about building scalable,
+        automated and cloud-native solutions using AWS and Python.
+    </p>
+
+    <a href="#projects" class="btn">View My Projects</a>
+</header>
+
+<section id="about">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about">
+        <p>
+            I am an aspiring Cloud Engineer focused on AWS services,
+            Infrastructure Automation, CI/CD, Python scripting and DevOps practices.
+            I enjoy building real-world cloud projects and continuously
+            learning new technologies.
+        </p>
+    </div>
+</section>
+
+<section id="projects">
+    <h2 class="section-title">AWS Projects</h2>
+
+    <div class="projects">
+
+        <div class="card">
+            <h3>🚀 Static Website Hosting</h3>
+            <p>
+                Hosted a static portfolio website using Amazon S3 and enabled
+                public website hosting.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>⚡ CI/CD Pipeline</h3>
+            <p>
+                Automated deployments using GitHub, CodePipeline and CodeBuild.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>📈 Scalable Web App</h3>
+            <p>
+                Built highly available infrastructure using EC2,
+                Auto Scaling Groups and Application Load Balancer.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🐍 AWS Automation</h3>
+            <p>
+                Automated AWS resource provisioning using Python and boto3 SDK.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🎤 Smart Expense Tracker</h3>
+            <p>
+                Serverless expense tracking solution using AWS Lambda,
+                S3, API Gateway and JavaScript frontend.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🛡️ AI Security Monitoring</h3>
+            <p>
+                Security monitoring solution using Rekognition,
+                Lambda and voice alert notifications.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills">
+        <div class="skill">AWS</div>
+        <div class="skill">EC2</div>
+        <div class="skill">S3</div>
+        <div class="skill">Lambda</div>
+        <div class="skill">IAM</div>
+        <div class="skill">CloudWatch</div>
+        <div class="skill">Python</div>
+        <div class="skill">boto3</div>
+        <div class="skill">GitHub</div>
+        <div class="skill">CI/CD</div>
+        <div class="skill">Linux</div>
+        <div class="skill">DevOps</div>
+    </div>
+</section>
+
+<footer>
+    <h2>Let's Connect</h2>
+
+    <p>Email: your-email@example.com</p>
+
+    <div class="social">
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+    </div>
+
+    <br>
+
+    <p>
+        © 2026 <span class="highlight">Sanika Pawar</span> | AWS Cloud Portfolio
+    </p>
+</footer>
+
+</body>
+</html>
